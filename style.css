@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    font-weight: bolder; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 70, 243);
+    margin: 0;
+    padding-top: 7%;
+}
+
+.container{
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 35px;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#imgF{
+    text-align: center;
+}
+
+#palavra{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#tentativaLetra{
+    text-align: center;
+}
+
+#chuteLetra{
+    border: 2px solid black;
+}
+
+#tentativaPalavra{
+    text-align: center;
+}
+
+#chutePalavra{
+    border: 2px solid black;
+}
+    
+
+#btStart{
+    border: black;
+    border-style: double;
+}

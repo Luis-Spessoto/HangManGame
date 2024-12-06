@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Forca</h1>
+        <figure id="imgF">
+            <img src="figs/Forca.png" alt="forca">
+        </figure>
+        <p id="palavra">_ _ _ _ _</p>        
+        <p id="tentativaLetra"><input type="text" name="chuteLetra" id="chuteLetra" placeholder="Digite a letra: "><button id="EnvioLetra">Enviar</button></p>
+        <p id="tentativaPalavra"><input type="text" name="chutePalavra" id="chutePalavra" placeholder="Para digitar a palavra: "><button id="EnvioPalavra">Enviar</button></p>
+        <p id="nTentativas">N° de tentativas restantes: </p>
+        <p id="letraUsadas">Letras usadas: </p>
+        <p><button id="btStart" onclick="Start()">Start / Restart</button></p>
+    </div> 
+</body>
+</html>
