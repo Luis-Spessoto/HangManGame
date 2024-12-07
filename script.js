@@ -1,7 +1,4 @@
 
-document.getElementById("btStart").addEventListener("click", Start);
-
-
 let palavraSecreta = "";
 let tentativasRestantes = 6;
 let letrasUsadas = [];
