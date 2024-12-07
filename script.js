@@ -1,4 +1,3 @@
-
 let palavraSecreta = "";
 let tentativasRestantes = 6;
 let letrasUsadas = [];
