@@ -2,7 +2,7 @@
 
 <div align="center">
  <figure>
-  <img src="" alt="Imagem jogo">
+  <img src="Forca.png" alt="Imagem jogo">
   <figcaption>Jogo da Forca</figcaption>
  </figure>
 </div>
